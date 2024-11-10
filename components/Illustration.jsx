@@ -8,6 +8,7 @@ function Illustration(props) {
       layout="fill"
       width="50%"
       alt={"yohans"}
+      className={styles.profile_pic}
     />
   );
 }

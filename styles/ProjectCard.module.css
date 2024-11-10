@@ -65,3 +65,15 @@
 .underline:hover {
   background-size: 100% 88%;
 }
+.profile-pic {
+  width: 50%;
+  height: auto; /* Maintain aspect ratio */
+  /* Additional styles if needed */
+}
+
+@media (max-width: 1024px) {
+  .profile-pic {
+    width: 100%;
+    padding-top: 30px;
+  }
+}
