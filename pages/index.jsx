@@ -1,16 +1,16 @@
-import Link from 'next/link';
-import Illustration from '../components/Illustration';
-import styles from '../styles/HomePage.module.css';
+import Link from "next/link";
+import Illustration from "../components/Illustration";
+import styles from "../styles/HomePage.module.css";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
     <>
       <div className={styles.container}>
-        <div className={styles.background}>
-        </div>
+        <div className={styles.background}></div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Yohans Hailu Kasaw</h1>
+            <h1 className={styles.name}>Yohans Kasaw</h1>
             <h6 className={styles.bio}>Software Engineer</h6>
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
@@ -28,6 +28,6 @@ export default function HomePage() {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Home' },
+    props: { title: "Home" },
   };
 }
