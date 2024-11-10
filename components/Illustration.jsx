@@ -3,13 +3,11 @@ import styles from "../styles/ProjectCard.module.css";
 
 function Illustration(props) {
   return (
-    <Image
+    <img
       src="/profile_pic.jpg"
-      height={700}
-      width={600}
+      layout="fill"
+      width="50%"
       alt={"yohans"}
-    className={styles.responsiveimage}
-        
     />
   );
 }
