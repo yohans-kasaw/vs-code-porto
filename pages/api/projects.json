@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "OwlBox",
+    "image": "https://i.imgur.com/xcjvEDm.jpeg",
+    "description": "AI-powered video analysis tool that processes content in real-time or from recordings to detect events, objects, or patterns. Built with Python, Docker, and AWS for scalability. Features an intuitive UI for reviewing, annotating, and exporting insights. Ideal for security, retail, and urban monitoring.",
+    "tags": [],
+    "demo": "https://www.owlbox.ai/"
+  },
+  {
+    "id": 2,
+    "name": "RateEat",
+    "image": "https://i.imgur.com/aJ2xgoJ.png",
+    "description": "User-friendly platform for rating and reviewing restaurants in real-time. Built with React and cloud infrastructure, it offers up-to-date feedback on menus, service, and ambiance. Helps users make informed dining choices and provides valuable insights for restaurant owners.",
+    "tags": [],
+    "demo": "https://rateeat.app/"
+  },
+  {
+    "id": 3,
+    "name": "SkillBridge",
+    "image": "https://i.imgur.com/yTF95qH.png",
+    "description": "Educational platform connecting learners with expert-led courses in high-demand fields like cloud computing and software engineering. Offers interactive modules, hands-on projects, and mentorship from industry professionals to accelerate career growth.",
+    "tags": [],
+    "demo": "https://skillbridge.academy/"
+  },
+  {
+    "id": 4,
+    "name": "HakimHub",
+    "image": "https://i.imgur.com/U5vFP87.png",
+    "description": "Comprehensive healthcare platform that connects users with doctors, hospitals, and specialties. Features a user-friendly interface and a vast network of providers to make healthcare more accessible and help users make informed decisions about their health.",
+    "tags": [],
+    "demo": "https://hakimhub.app/"
+  },
+  {
+    "id": 5,
+    "name": "Adot",
+    "image": "https://i.imgur.com/7FwAIDE.png",
+    "description": "Digital platform supporting expectant mothers with personalized health guidance, community support, and monitoring tools. Backend built with AWS, Docker, and PostgreSQL for scalability and security. Provides tailored content and resources for a healthy pregnancy journey.",
+    "tags": [],
+    "demo": "https://www.adot.life"
+  }
+]
